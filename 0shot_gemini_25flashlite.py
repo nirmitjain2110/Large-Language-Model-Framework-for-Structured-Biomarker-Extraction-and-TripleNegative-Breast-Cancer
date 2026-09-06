@@ -4,7 +4,7 @@
 # from openpyxl import Workbook, load_workbook
 
 # # --- Configuration ---
-# GOOGLE_API_KEY = "AIzaSyABvfj3hAaOotaLI7vV_tcy02ISq2KRQEM"
+# GOOGLE_API_KEY = "Enter your api key here"
 # genai.configure(api_key=GOOGLE_API_KEY)
 
 # # Define input and output file names
@@ -114,7 +114,7 @@ import google.generativeai as genai
 from openpyxl import Workbook, load_workbook
 
 # --- Configuration ---
-GOOGLE_API_KEY = "AIzaSyBszzy2NBXgfUJfnDFf96q6b2XJbZBBUVs"   # replace with your key
+GOOGLE_API_KEY = "Enter your api key here"   # replace with your key
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Define input and output file names
