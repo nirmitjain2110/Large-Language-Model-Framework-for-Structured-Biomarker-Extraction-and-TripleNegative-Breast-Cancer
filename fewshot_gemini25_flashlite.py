@@ -7,7 +7,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
 # --- Configuration ---
-GOOGLE_API_KEY = "AIzaSyBszzy2NBXgfUJfnDFf96q6b2XJbZBBUVs"  # Replace with your Gemini API key
+GOOGLE_API_KEY = "Enter your api key here"  # Replace with your Gemini API key
 genai.configure(api_key=GOOGLE_API_KEY)
 
 input_excel_file = "Modified_data.xlsx"
