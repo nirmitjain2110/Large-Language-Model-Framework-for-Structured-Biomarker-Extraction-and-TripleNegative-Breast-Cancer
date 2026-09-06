@@ -140,7 +140,7 @@ import google.generativeai as genai
 from openpyxl import Workbook, load_workbook
 
 # --- Configuration ---
-GOOGLE_API_KEY = "AIzaSyBszzy2NBXgfUJfnDFf96q6b2XJbZBBUVs"   # replace with your key
+GOOGLE_API_KEY = "Enter your api key here"   # replace with your key
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Define input and output file names
@@ -270,7 +270,7 @@ from openai import OpenAI
 from google.colab import files
 from tqdm import tqdm
 
-OPENAI_API_KEY ="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"
+OPENAI_API_KEY ="Enter your api key here"
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 input_excel_file = "Modified_data.xlsx"
@@ -384,7 +384,7 @@ from openai import OpenAI
 from google.colab import files
 from tqdm import tqdm
 
-OPENAI_API_KEY ="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"
+OPENAI_API_KEY ="Enter your api key here"
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 input_excel_file = "Modified_data.xlsx"
@@ -512,7 +512,7 @@ from openai import OpenAI
 from google.colab import files
 from tqdm import tqdm
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "Enter your api key here"
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 input_excel_file = "Modified_data.xlsx"
@@ -695,7 +695,7 @@ from openai import OpenAI
 from google.colab import files
 from tqdm import tqdm
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "Enter your api key here"
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 input_excel_file = "Modified_data.xlsx"
